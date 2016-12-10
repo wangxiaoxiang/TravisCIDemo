@@ -8,12 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		C0EB61ED1DFBD86B00499C26 /* TravisCIDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = C0EB61EB1DFBD86B00499C26 /* TravisCIDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0EB61F51DFBDCDE00499C26 /* TCIURLCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C0EB61F31DFBDCDE00499C26 /* TCIURLCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0EB61F61DFBDCDE00499C26 /* TCIURLCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB61F41DFBDCDE00499C26 /* TCIURLCoder.m */; };
+		C0EB61FE1DFBDD7500499C26 /* TravisCIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB61FD1DFBDD7500499C26 /* TravisCIDemoTests.m */; };
+		C0EB62001DFBDD7500499C26 /* TravisCIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EB61E81DFBD86B00499C26 /* TravisCIDemo.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0EB62011DFBDD7500499C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0EB61DF1DFBD86B00499C26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0EB61E71DFBD86B00499C26;
+			remoteInfo = TravisCIDemo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C0EB61E81DFBD86B00499C26 /* TravisCIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TravisCIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EB61EB1DFBD86B00499C26 /* TravisCIDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TravisCIDemo.h; sourceTree = "<group>"; };
 		C0EB61EC1DFBD86B00499C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0EB61F31DFBDCDE00499C26 /* TCIURLCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCIURLCoder.h; sourceTree = "<group>"; };
+		C0EB61F41DFBDCDE00499C26 /* TCIURLCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCIURLCoder.m; sourceTree = "<group>"; };
+		C0EB61FB1DFBDD7500499C26 /* TravisCIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisCIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0EB61FD1DFBDD7500499C26 /* TravisCIDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravisCIDemoTests.m; sourceTree = "<group>"; };
+		C0EB61FF1DFBDD7500499C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +43,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C0EB61F81DFBDD7500499C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EB62001DFBDD7500499C26 /* TravisCIDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				C0EB61EA1DFBD86B00499C26 /* TravisCIDemo */,
+				C0EB61FC1DFBDD7500499C26 /* TravisCIDemoTests */,
 				C0EB61E91DFBD86B00499C26 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				C0EB61E81DFBD86B00499C26 /* TravisCIDemo.framework */,
+				C0EB61FB1DFBDD7500499C26 /* TravisCIDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,9 +76,20 @@
 			isa = PBXGroup;
 			children = (
 				C0EB61EB1DFBD86B00499C26 /* TravisCIDemo.h */,
+				C0EB61F31DFBDCDE00499C26 /* TCIURLCoder.h */,
+				C0EB61F41DFBDCDE00499C26 /* TCIURLCoder.m */,
 				C0EB61EC1DFBD86B00499C26 /* Info.plist */,
 			);
 			path = TravisCIDemo;
+			sourceTree = "<group>";
+		};
+		C0EB61FC1DFBDD7500499C26 /* TravisCIDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0EB61FD1DFBDD7500499C26 /* TravisCIDemoTests.m */,
+				C0EB61FF1DFBDD7500499C26 /* Info.plist */,
+			);
+			path = TravisCIDemoTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0EB61ED1DFBD86B00499C26 /* TravisCIDemo.h in Headers */,
+				C0EB61F51DFBDCDE00499C26 /* TCIURLCoder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +125,24 @@
 			productReference = C0EB61E81DFBD86B00499C26 /* TravisCIDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		C0EB61FA1DFBDD7500499C26 /* TravisCIDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0EB62051DFBDD7500499C26 /* Build configuration list for PBXNativeTarget "TravisCIDemoTests" */;
+			buildPhases = (
+				C0EB61F71DFBDD7500499C26 /* Sources */,
+				C0EB61F81DFBDD7500499C26 /* Frameworks */,
+				C0EB61F91DFBDD7500499C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0EB62021DFBDD7500499C26 /* PBXTargetDependency */,
+			);
+			name = TravisCIDemoTests;
+			productName = TravisCIDemoTests;
+			productReference = C0EB61FB1DFBDD7500499C26 /* TravisCIDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -94,6 +153,11 @@
 				ORGANIZATIONNAME = "汪潇翔";
 				TargetAttributes = {
 					C0EB61E71DFBD86B00499C26 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = G497YX6CBT;
+						ProvisioningStyle = Automatic;
+					};
+					C0EB61FA1DFBDD7500499C26 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = G497YX6CBT;
 						ProvisioningStyle = Automatic;
@@ -113,12 +177,20 @@
 			projectRoot = "";
 			targets = (
 				C0EB61E71DFBD86B00499C26 /* TravisCIDemo */,
+				C0EB61FA1DFBDD7500499C26 /* TravisCIDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C0EB61E61DFBD86B00499C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EB61F91DFBDD7500499C26 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -132,10 +204,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EB61F61DFBDCDE00499C26 /* TCIURLCoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EB61F71DFBDD7500499C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EB61FE1DFBDD7500499C26 /* TravisCIDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0EB62021DFBDD7500499C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0EB61E71DFBD86B00499C26 /* TravisCIDemo */;
+			targetProxy = C0EB62011DFBDD7500499C26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C0EB61EE1DFBD86B00499C26 /* Debug */ = {
@@ -270,6 +359,28 @@
 			};
 			name = Release;
 		};
+		C0EB62031DFBDD7500499C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G497YX6CBT;
+				INFOPLIST_FILE = TravisCIDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.TravisCIDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0EB62041DFBDD7500499C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G497YX6CBT;
+				INFOPLIST_FILE = TravisCIDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.TravisCIDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -287,6 +398,15 @@
 			buildConfigurations = (
 				C0EB61F11DFBD86B00499C26 /* Debug */,
 				C0EB61F21DFBD86B00499C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0EB62051DFBDD7500499C26 /* Build configuration list for PBXNativeTarget "TravisCIDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0EB62031DFBDD7500499C26 /* Debug */,
+				C0EB62041DFBDD7500499C26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
