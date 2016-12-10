@@ -3,10 +3,5 @@ osx_image: xcode8.2
 xcode_project: TravisCIDemo.xcodeproj
 xcode_scheme: TravisCIDemo
 
-before_install:
-- brew update
-- brew upgrade xctool
-
 script:
 - xctool -project TravisCIDemo.xcodeproj -scheme TravisCIDemo build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
-- xctool -project TravisCIDemo.xcodeproj -scheme TravisCIDemoTests test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
