@@ -8,16 +8,19 @@
   "authors": {
     "wangxiaoxiang": "wangxiaoxiang-cn@foxmail.com"
   },
+  "platforms": {
+    "ios": "5.0"
+  },
   "source": {
     "git": "https://github.com/wangxiaoxiang/TravisCIDemo.git",
     "tag": "0.0.1"
   },
   "source_files": "TravisCIDemo/**/*.{h,m}",
   "public_header_files": "TravisCIDemo/**/*.h",
-  "platforms": {
-    "osx": null,
-    "ios": null,
-    "tvos": null,
-    "watchos": null
+  "requires_arc": true,
+  "dependencies": {
+    "LTM": [
+      "~> 1.1.2"
+    ]
   }
 }

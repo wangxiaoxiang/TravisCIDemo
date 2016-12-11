@@ -1,5 +1,12 @@
 PODS:
-  - TravisCIDemo (0.0.1)
+  - LTM (1.1.2):
+    - LTM/Common (= 1.1.2)
+    - LTM/UIKit (= 1.1.2)
+  - LTM/Common (1.1.2)
+  - LTM/UIKit (1.1.2):
+    - LTM/Common
+  - TravisCIDemo (0.0.1):
+    - LTM (~> 1.1.2)
 
 DEPENDENCIES:
   - TravisCIDemo (from `../../.`)
@@ -9,7 +16,8 @@ EXTERNAL SOURCES:
     :path: "../../."
 
 SPEC CHECKSUMS:
-  TravisCIDemo: 703eaa4485b4869d5ede7a2640c91d88d0ed633c
+  LTM: fd5c39d643bf81284a09d509bc9786a04d5a1494
+  TravisCIDemo: 0cdbddf5ca590431d414da1930c1b16f93fb0375
 
 PODFILE CHECKSUM: 1c0850462c7f3c12bf273aab749d2e82e2c75e1d
 

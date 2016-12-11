@@ -12,6 +12,7 @@
 		C0EB61F61DFBDCDE00499C26 /* TCIURLCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB61F41DFBDCDE00499C26 /* TCIURLCoder.m */; };
 		C0EB61FE1DFBDD7500499C26 /* TravisCIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB61FD1DFBDD7500499C26 /* TravisCIDemoTests.m */; };
 		C0EB62001DFBDD7500499C26 /* TravisCIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EB61E81DFBD86B00499C26 /* TravisCIDemo.framework */; };
+		C0EB62331DFD44C900499C26 /* LTM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EB62321DFD44C900499C26 /* LTM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		C0EB61FB1DFBDD7500499C26 /* TravisCIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisCIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EB61FD1DFBDD7500499C26 /* TravisCIDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravisCIDemoTests.m; sourceTree = "<group>"; };
 		C0EB61FF1DFBDD7500499C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0EB62321DFD44C900499C26 /* LTM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LTM.framework; path = "Vendor/LTM/build/Debug-iphoneos/LTM.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EB62331DFD44C900499C26 /* LTM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +63,7 @@
 				C0EB61EA1DFBD86B00499C26 /* TravisCIDemo */,
 				C0EB61FC1DFBDD7500499C26 /* TravisCIDemoTests */,
 				C0EB61E91DFBD86B00499C26 /* Products */,
+				C0EB62311DFD44C900499C26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +94,14 @@
 				C0EB61FF1DFBDD7500499C26 /* Info.plist */,
 			);
 			path = TravisCIDemoTests;
+			sourceTree = "<group>";
+		};
+		C0EB62311DFD44C900499C26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0EB62321DFD44C900499C26 /* LTM.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,6 +344,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/LTM/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = TravisCIDemo/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -350,6 +366,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/LTM/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = TravisCIDemo/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -409,6 +429,7 @@
 				C0EB62041DFBDD7500499C26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

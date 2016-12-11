@@ -7,59 +7,223 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		545DEA75B043E0A3AE71845AADA42E98 /* TCIURLCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB68603A642182CEBB3F8145D094AAA /* TCIURLCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55DAEC48710E8760E715E6A2306CD6A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		6E580BEE4A38FCBDEB343B83D8530296 /* TCIURLCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 972AF7482B219135220EAF2AF469830E /* TCIURLCoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		862B6CA81AEE6D049CA3A82178AEEC1F /* TravisCIDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C6216B69B0EF65B25749E83FEECE1F /* TravisCIDemo-dummy.m */; };
-		BA83760AF1E767DEAABA9BF39896E3EC /* TravisCIDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 431F303F15FECC4F9C4BED921AAF3ED8 /* TravisCIDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F98BE8CCE207238286E683861022F0C1 /* Pods-TravisCIDemo-Pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B7ED10107F987E9D43F15F14B7246 /* Pods-TravisCIDemo-Pod-dummy.m */; };
-		FF75B76917FEF774103F4A8CA14A2A06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		02C0358A6C45899AA878624C99F56578 /* LTM.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD09B87A79B19EA95C479F923196CF7 /* LTM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		053CFC29B88052B2EE8FF40B5BE08158 /* LTMNSKeyedUnarchiver+Safety.h in Headers */ = {isa = PBXBuildFile; fileRef = 1616B7B564EF0EB3ED3E0A1FB2B7C638 /* LTMNSKeyedUnarchiver+Safety.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		056D9DE829950AF99D8300CE2ADEB6F8 /* LTMStringDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 256C3F8CDBC64F2621A21A76AD4EE8E9 /* LTMStringDrawing.m */; };
+		07DF1FD301E579BAD35400B5C835B0BE /* LTMUIImage+Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D219CB9E6C876F8639ED12F0CA14C2E /* LTMUIImage+Alpha.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BC16F9A8937BBBA76E2D91F5219B545 /* LTMTypeUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BFB5192810C1B4371F7CBD6131FA601 /* LTMTypeUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E857D1BC9DD58282B7189C2D25859DF /* LTMURLComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 890B74FD3169B73393352DFD2102A365 /* LTMURLComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		137EC7B3B640A652510DA00CED021288 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6377BE939D92951880F8268257339779 /* CoreGraphics.framework */; };
+		15BF1C7E15CAA9971169C7D367C459E5 /* LTMGeometryUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE1BFC88FEBD824D278B1BC26424053 /* LTMGeometryUtils.m */; };
+		161E70438DAC3E985AF24D89C34D47F2 /* LTMUIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F94B75D4ED9F5D8B0EC4402EF45C90 /* LTMUIImage+Rotate.m */; };
+		176B936E42AF4FE35062C94F2C22955E /* LTMUIFont+LineHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 0554BC862D8BD6BA399FF79EC2A3F859 /* LTMUIFont+LineHeight.m */; };
+		17C96D3CCD03FD6872FAD388B033A8BE /* LTMNSThread+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3AFC9A9E390755DCBD5339E8C6E11 /* LTMNSThread+Blocks.m */; };
+		21A4D054467C3F28B4876B91DC47B098 /* LTMStringEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E7DF9B68AF5988D0EA4E3BF6323E560 /* LTMStringEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		247E79B7673C6EBF1481F0FA878E10A6 /* LTMNSKeyedUnarchiver+Safety.m in Sources */ = {isa = PBXBuildFile; fileRef = 824C96E54CE7B44DA2A840A24FB5CCA0 /* LTMNSKeyedUnarchiver+Safety.m */; };
+		279CA6AB7AF83B93DF5B53D0DC8F52E3 /* LTMMerge.m in Sources */ = {isa = PBXBuildFile; fileRef = 6669AE10D3735ADCE7A8911343DFEB41 /* LTMMerge.m */; };
+		290EDEBD8F15E10A1DDED4301576546B /* LTMUIColor+RGB.h in Headers */ = {isa = PBXBuildFile; fileRef = 82729FD7DA013FD9D2E843655BD0EBFF /* LTMUIColor+RGB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CC6F55E5D1FADD42748EFCA5D588FAA /* LTMDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2401811FE76734A767A4C42A8D0667 /* LTMDigest.m */; };
+		2F7FADC7E4E68DF9211905E07763251F /* LTMHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5D0B01CF71FA34A63BBE5EDA0815D8 /* LTMHex.m */; };
+		351215DBC47FA48270FABBCE3F0054FC /* LTM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0869AEF5C7C17DF67F667ABB973A5F /* LTM-dummy.m */; };
+		3B4E6C117B2A5BB5F5CD135337D80EE8 /* LTMUIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAA3BD3E340FEED93D2EB8918FAEEA /* LTMUIView+Snapshot.m */; };
+		3D2F98A9638E8DBFA2CEE4C657A73485 /* LTMUIView+SubtreeDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 022887A59A04EB8CE2F8748BD8E002DA /* LTMUIView+SubtreeDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45BC47444BBF097BB9CD3FABF593675D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7DD60B5E387F2527C80D6F41CFC517 /* Foundation.framework */; };
+		463AC0985D2F783716EFDD112FCC5F1C /* Pods-TravisCIDemo-Pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B7ED10107F987E9D43F15F14B7246 /* Pods-TravisCIDemo-Pod-dummy.m */; };
+		48BED892FB7CB6C607A8E7BF0DF8CAA5 /* LTMMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD8656837A36488CCBB4CFFF5C90583 /* LTMMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A102757E7568273A6FD38CB20B5448D /* LTMUIImage+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A89C69AE728F06A91A4068F3FD7221 /* LTMUIImage+Resize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EEBD28017AD25DFCC0EDE4A4974590E /* TravisCIDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 431F303F15FECC4F9C4BED921AAF3ED8 /* TravisCIDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AA92D952DD28FABB1B1E6F26E46C4C2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25C6B2F7745BB3B05650F4AB58CF56D /* Security.framework */; };
+		609DF99CDD3E85B65B8B1FA920C1B9F7 /* LTMURLCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBAEFC98E94D4221859BEC6682AA409 /* LTMURLCoder.m */; };
+		61AB56685CFE87C105FB30BE965D9DF7 /* LTMURLComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 58597D5EEB8693342753A30AE8DAED46 /* LTMURLComponents.m */; };
+		62A9FE325BDE720250E369FC93BEBA6D /* LTMNSThread+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 176A2E2F13FE84F3B0A21AB79BFF2365 /* LTMNSThread+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		643BA44B6D57C831178DD8EB79A84D11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7DD60B5E387F2527C80D6F41CFC517 /* Foundation.framework */; };
+		659C3A1E1AD4D33CE20408FB768F6A6F /* LTMSystemVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 56A315ACBA244596B97C61D06C1A864A /* LTMSystemVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6677C25C89065039E7D01B049550DB9C /* LTMStringDrawing.h in Headers */ = {isa = PBXBuildFile; fileRef = 68F48CCE370070148631638C828EEB04 /* LTMStringDrawing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67BF477C395FC9AF4743FCF163EFDA96 /* LTMGeometryUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0FDF28D62BF78A95D08B7F64F27E8C /* LTMGeometryUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		735423E5BB060653A74990A4290FE2E4 /* LTMUIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAB827DC77C353F55678C6A3FFCC31 /* LTMUIImage+Alpha.m */; };
+		777999554A0E77CD6F8472ECC887EEE4 /* TCIURLCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 972AF7482B219135220EAF2AF469830E /* TCIURLCoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7BEB03193DE10C3720919D460003710D /* LTMUIImage+RoundedCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = E813898C2F5A68A186B2B7FE529F273D /* LTMUIImage+RoundedCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EB75CAB12E0124D4BC466CCF660ABBE /* LTMUIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DF3BAC2483432E4F0DE223A24A84CB /* LTMUIImage+Resize.m */; };
+		82E7AE27B248FFF0076BD50B0C4AD9B9 /* LTMStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C6114D1EE6BCCF818AC88C28A40C3E /* LTMStringEncoding.m */; };
+		8356F7A63EAFD35541B91528B9474E3A /* LTMMerge.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F00F87C355109B2811B0B3C3C9DD50E /* LTMMerge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E3808D974EADD3D32A15F8D310BDBEA /* LTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 38B902FD15615CD1FF07EDEDB097B6BC /* LTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EF9C2D53821490E0BE10BC474D4D3D3 /* LTMUIView+SubtreeDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D46C1614B75F3BB46BE5B23BD9C99C9 /* LTMUIView+SubtreeDescription.m */; };
+		921C590FBA760EA51736A4BE4D350C5E /* LTMDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AD1FE84839B713F09C3FEBEA9484BA /* LTMDigest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		965B1733FE8C5E30ADADBDB1081F3E7E /* TravisCIDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C6216B69B0EF65B25749E83FEECE1F /* TravisCIDemo-dummy.m */; };
+		9A6521399DA95E2F3BA5E9940F4A35BF /* LTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C41EF43A21FCF7E74B5FDF6944AA6C4 /* LTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E9C60029A60F10E7D0F26C826133EF2 /* LTMLocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = DE2ADBBF75B08459F12D1196BD59784D /* LTMLocalizedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0AA0BFE963E6BC35528616CE446DD0A /* LTMURLQueryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CB1FF1025CA5245423A6A2159B2057 /* LTMURLQueryItem.m */; };
+		ACD07F8208B862BB0556DA0F6232A22B /* LTMPath.h in Headers */ = {isa = PBXBuildFile; fileRef = E57AA60BBBBE753747F3454AE26180A1 /* LTMPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD901950F62E60E1D5168A0D03797C41 /* LTMUIView+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D8D836A74E77C6A20CA2EA30D634E94 /* LTMUIView+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B140E394683663869F4B8586352CE21E /* LTMNSDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 591B9C91C10A8EC6CFBDDC1DC1DCE720 /* LTMNSDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4AC52D5AD0BB4BC6D218C35749B5A49 /* LTMPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C09DB537C9A6406B837939758A7B4A1C /* LTMPath.m */; };
+		B61A4952F6029079D6BACD1D8143DEF3 /* LTMURLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = AC538D180D68AEE31FBFB97A7E874EAE /* LTMURLArguments.m */; };
+		B6CED1B6F74080AA147D68C1ED81B484 /* LTMNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E2456F895B682D63949C019C41062A50 /* LTMNSDictionary.m */; };
+		BC26B4753E3B2DBA3996A7F0E4ECA8FC /* LTMUIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = E34828DD168D614B43467B219D0BD6E5 /* LTMUIImage+RoundedCorner.m */; };
+		C1407FFD498270E2761E84E4DE488AFC /* LTMNSTimer+LightweightProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88220F7FA754D066E61140EFFC91A59E /* LTMNSTimer+LightweightProxy.m */; };
+		C1C96AAACF2D718EB8E0FE1FB4FF2D23 /* LTMNSCoder+ExtendedCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FFDD2AD8707DF05815A91622E724E83 /* LTMNSCoder+ExtendedCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C56CC4CE538964CC7C8B3BD842A7AB31 /* LTMUIImage+Rotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 029956A57B04451D19A6D5DCD53EB98B /* LTMUIImage+Rotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9F0C4FFF64E264CB7697B873C57E5EA /* TCIURLCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB68603A642182CEBB3F8145D094AAA /* TCIURLCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBCB7E6A5872BB93FDC1849A58EC5ABE /* LTMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1867185F31B14A822F2803A8213DCD /* LTMTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD26265AF37D9D6A170FDE9FFCF6FF13 /* LTMUIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC79C452547184559A2522A35F85D1 /* LTMUIColor+RGB.m */; };
+		D0E9B1A3DAB8B2BE256DDF7452112357 /* LTMSystemVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 226272ABFF35DE81FC01016EBEAF3772 /* LTMSystemVersion.m */; };
+		D91AE80FA345C8D46ACF1219DAB10DCF /* LTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 41445001384B27766EB71E2FCE5E76FE /* LTMBase64.m */; };
+		DCD0D66E0E513B184C7DA41ACF0C4DC8 /* LTMURLCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 079603A4E74ABBDC89BA7A53881E4455 /* LTMURLCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5424FE675BCBBCC9C49D7CDE02A7465 /* LTMTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B82F6A8DD5FC46E17620BA1A071F55 /* LTMTimer.m */; };
+		E81E9B9DB5E734F16C4A3E28CD646262 /* LTMNSTimer+LightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E190B0E061E55518B71EFE8E70C59A /* LTMNSTimer+LightweightProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC78C580551EA224E062476FAB25275B /* LTMHex.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C673EB6AA23CB844056E049873BC1B /* LTMHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0AA639F7E0F2D7E362542B2BDF4D88F /* LTMJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 06388ABEDA879EAF4CACBF5F40ABB3D5 /* LTMJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1737BF74C2707332DCAE91EFCF154CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7DD60B5E387F2527C80D6F41CFC517 /* Foundation.framework */; };
+		F239B3D0D563149A3ADB82E5D674567B /* LTMLightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 419C72973D03D454B2B3C5CF921F5680 /* LTMLightweightProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3F76C3F65A4363598C9A21A80D4B644 /* LTMMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AAB15D0F733CB4E1DBE8187BDA1689 /* LTMMath.m */; };
+		F4B5633CC0A4BA62854E89B590063312 /* LTMLightweightProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79493E3F3F7016755DD5F36BA6E06CA3 /* LTMLightweightProxy.m */; };
+		F6764365E6496E09EF464A9FFC8EDAFE /* LTMURLQueryItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E4B38186E2C80E3C35D7307E3CA7D8 /* LTMURLQueryItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7BBCF0E746867189BDE014ACD75A6FE /* LTMJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF40E405DC00F7D2A87C58C426DC007 /* LTMJSON.m */; };
+		FAA2586A37F5B9831C28A10A7FC55151 /* LTMUIFont+LineHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F9EDDF4B3DA2014C4F8E5F85261A392 /* LTMUIFont+LineHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBD81520A3B7F723BF7495F4EE50289A /* LTMURLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 718E38A7A68049F804A74EA61F02CBA3 /* LTMURLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC265DBFD5F3ECE60FC3D71F7CF3560B /* LTMTypeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C31DB09B93EF9CF28A4F88B76B1B3CD0 /* LTMTypeUtility.m */; };
+		FC8EA4958D8880625C7DA018D305D594 /* LTMNSCoder+ExtendedCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 582EA8D64EE3D02CD603D194854835F0 /* LTMNSCoder+ExtendedCoder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		29A491758F0E45A112CB1CA8E6EAD4E9 /* PBXContainerItemProxy */ = {
+		825C2BF4BF3A1D45807BB0789DC6FE26 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C63A86869EAD8DE31351622C8CF4EA81;
+			remoteGlobalIDString = 88D372678D2C59D0719987DD53EA3412;
 			remoteInfo = TravisCIDemo;
+		};
+		A6F27E21E10E98D42B6E68BD5A7E9A78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07B1ADBAF9A14C5C6F612229DE255F28;
+			remoteInfo = LTM;
+		};
+		AF622F57DBDC5810C00F1448661FF1E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07B1ADBAF9A14C5C6F612229DE255F28;
+			remoteInfo = LTM;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		022887A59A04EB8CE2F8748BD8E002DA /* LTMUIView+SubtreeDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LTMUIView+SubtreeDescription.h"; path = "LTM/UIKit/LTMUIView+SubtreeDescription.h"; sourceTree = "<group>"; };
+		029956A57B04451D19A6D5DCD53EB98B /* LTMUIImage+Rotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LTMUIImage+Rotate.h"; path = "LTM/UIKit/LTMUIImage+Rotate.h"; sourceTree = "<group>"; };
+		0554BC862D8BD6BA399FF79EC2A3F859 /* LTMUIFont+LineHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LTMUIFont+LineHeight.m"; path = "LTM/UIKit/LTMUIFont+LineHeight.m"; sourceTree = "<group>"; };
 		05FA1CCB99608E7CF02E5846213E6FC8 /* Pods-TravisCIDemo-Pod-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TravisCIDemo-Pod-frameworks.sh"; sourceTree = "<group>"; };
+		06388ABEDA879EAF4CACBF5F40ABB3D5 /* LTMJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMJSON.h; path = LTM/Common/LTMJSON.h; sourceTree = "<group>"; };
+		06FFD475A119FEB0C6933C756DD02DC4 /* libTravisCIDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTravisCIDemo.a; path = libTravisCIDemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		079603A4E74ABBDC89BA7A53881E4455 /* LTMURLCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMURLCoder.h; path = LTM/Common/LTMURLCoder.h; sourceTree = "<group>"; };
+		1616B7B564EF0EB3ED3E0A1FB2B7C638 /* LTMNSKeyedUnarchiver+Safety.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LTMNSKeyedUnarchiver+Safety.h"; path = "LTM/Common/LTMNSKeyedUnarchiver+Safety.h"; sourceTree = "<group>"; };
+		176A2E2F13FE84F3B0A21AB79BFF2365 /* LTMNSThread+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LTMNSThread+Blocks.h"; path = "LTM/Common/LTMNSThread+Blocks.h"; sourceTree = "<group>"; };
+		1A0FDF28D62BF78A95D08B7F64F27E8C /* LTMGeometryUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMGeometryUtils.h; path = LTM/Common/LTMGeometryUtils.h; sourceTree = "<group>"; };
+		1D46C1614B75F3BB46BE5B23BD9C99C9 /* LTMUIView+SubtreeDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LTMUIView+SubtreeDescription.m"; path = "LTM/UIKit/LTMUIView+SubtreeDescription.m"; sourceTree = "<group>"; };
+		1DAAB827DC77C353F55678C6A3FFCC31 /* LTMUIImage+Alpha.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LTMUIImage+Alpha.m"; path = "LTM/UIKit/LTMUIImage+Alpha.m"; sourceTree = "<group>"; };
+		1DD8656837A36488CCBB4CFFF5C90583 /* LTMMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMMath.h; path = LTM/Common/LTMMath.h; sourceTree = "<group>"; };
+		1ECC79C452547184559A2522A35F85D1 /* LTMUIColor+RGB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LTMUIColor+RGB.m"; path = "LTM/UIKit/LTMUIColor+RGB.m"; sourceTree = "<group>"; };
+		1EF40E405DC00F7D2A87C58C426DC007 /* LTMJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMJSON.m; path = LTM/Common/LTMJSON.m; sourceTree = "<group>"; };
+		20A89C69AE728F06A91A4068F3FD7221 /* LTMUIImage+Resize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LTMUIImage+Resize.h"; path = "LTM/UIKit/LTMUIImage+Resize.h"; sourceTree = "<group>"; };
+		226272ABFF35DE81FC01016EBEAF3772 /* LTMSystemVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMSystemVersion.m; path = LTM/UIKit/LTMSystemVersion.m; sourceTree = "<group>"; };
+		256C3F8CDBC64F2621A21A76AD4EE8E9 /* LTMStringDrawing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMStringDrawing.m; path = LTM/UIKit/LTMStringDrawing.m; sourceTree = "<group>"; };
+		28AAB15D0F733CB4E1DBE8187BDA1689 /* LTMMath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMMath.m; path = LTM/Common/LTMMath.m; sourceTree = "<group>"; };
+		29AD1FE84839B713F09C3FEBEA9484BA /* LTMDigest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMDigest.h; path = LTM/Common/LTMDigest.h; sourceTree = "<group>"; };
+		2AE94A091783BA2F6DF2CD48AF109810 /* LTM-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTM-prefix.pch"; sourceTree = "<group>"; };
 		2CF4DA8725D6E802C3B8AAAC319324E6 /* Pods-TravisCIDemo-Pod-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TravisCIDemo-Pod-acknowledgements.plist"; sourceTree = "<group>"; };
 		325109C6B9418C28C1BCCAB97C26611A /* Pods-TravisCIDemo-Pod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TravisCIDemo-Pod.debug.xcconfig"; sourceTree = "<group>"; };
-		35AE270C676126B4FE1AFF52DFEFE9A1 /* libPods-TravisCIDemo-Pod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TravisCIDemo-Pod.a"; path = "libPods-TravisCIDemo-Pod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B902FD15615CD1FF07EDEDB097B6BC /* LTMBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMBase64.h; path = LTM/Common/LTMBase64.h; sourceTree = "<group>"; };
+		3D8D836A74E77C6A20CA2EA30D634E94 /* LTMUIView+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LTMUIView+Snapshot.h"; path = "LTM/UIKit/LTMUIView+Snapshot.h"; sourceTree = "<group>"; };
+		3F9EDDF4B3DA2014C4F8E5F85261A392 /* LTMUIFont+LineHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LTMUIFont+LineHeight.h"; path = "LTM/UIKit/LTMUIFont+LineHeight.h"; sourceTree = "<group>"; };
+		41445001384B27766EB71E2FCE5E76FE /* LTMBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMBase64.m; path = LTM/Common/LTMBase64.m; sourceTree = "<group>"; };
+		419C72973D03D454B2B3C5CF921F5680 /* LTMLightweightProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMLightweightProxy.h; path = LTM/Common/LTMLightweightProxy.h; sourceTree = "<group>"; };
 		431F303F15FECC4F9C4BED921AAF3ED8 /* TravisCIDemo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TravisCIDemo.h; sourceTree = "<group>"; };
+		44F94B75D4ED9F5D8B0EC4402EF45C90 /* LTMUIImage+Rotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LTMUIImage+Rotate.m"; path = "LTM/UIKit/LTMUIImage+Rotate.m"; sourceTree = "<group>"; };
 		4B22E2589A36A99D268B9563F61D2AED /* Pods-TravisCIDemo-Pod-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TravisCIDemo-Pod-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F00F87C355109B2811B0B3C3C9DD50E /* LTMMerge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMMerge.h; path = LTM/Common/LTMMerge.h; sourceTree = "<group>"; };
+		56A315ACBA244596B97C61D06C1A864A /* LTMSystemVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMSystemVersion.h; path = LTM/UIKit/LTMSystemVersion.h; sourceTree = "<group>"; };
+		582EA8D64EE3D02CD603D194854835F0 /* LTMNSCoder+ExtendedCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LTMNSCoder+ExtendedCoder.m"; path = "LTM/Common/LTMNSCoder+ExtendedCoder.m"; sourceTree = "<group>"; };
+		58597D5EEB8693342753A30AE8DAED46 /* LTMURLComponents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMURLComponents.m; path = LTM/Common/LTMURLComponents.m; sourceTree = "<group>"; };
+		591B9C91C10A8EC6CFBDDC1DC1DCE720 /* LTMNSDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMNSDictionary.h; path = LTM/Common/LTMNSDictionary.h; sourceTree = "<group>"; };
+		5EBAEFC98E94D4221859BEC6682AA409 /* LTMURLCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMURLCoder.m; path = LTM/Common/LTMURLCoder.m; sourceTree = "<group>"; };
+		6377BE939D92951880F8268257339779 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		65E190B0E061E55518B71EFE8E70C59A /* LTMNSTimer+LightweightProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LTMNSTimer+LightweightProxy.h"; path = "LTM/Common/LTMNSTimer+LightweightProxy.h"; sourceTree = "<group>"; };
+		6669AE10D3735ADCE7A8911343DFEB41 /* LTMMerge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMMerge.m; path = LTM/Common/LTMMerge.m; sourceTree = "<group>"; };
+		68F48CCE370070148631638C828EEB04 /* LTMStringDrawing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMStringDrawing.h; path = LTM/UIKit/LTMStringDrawing.h; sourceTree = "<group>"; };
+		6B2401811FE76734A767A4C42A8D0667 /* LTMDigest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMDigest.m; path = LTM/Common/LTMDigest.m; sourceTree = "<group>"; };
 		6B7FDEF81D378E51B547F7189AEB6CA6 /* TravisCIDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TravisCIDemo.xcconfig; sourceTree = "<group>"; };
+		6BE1BFC88FEBD824D278B1BC26424053 /* LTMGeometryUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMGeometryUtils.m; path = LTM/Common/LTMGeometryUtils.m; sourceTree = "<group>"; };
+		6D219CB9E6C876F8639ED12F0CA14C2E /* LTMUIImage+Alpha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LTMUIImage+Alpha.h"; path = "LTM/UIKit/LTMUIImage+Alpha.h"; sourceTree = "<group>"; };
+		718E38A7A68049F804A74EA61F02CBA3 /* LTMURLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMURLArguments.h; path = LTM/Common/LTMURLArguments.h; sourceTree = "<group>"; };
+		74C6114D1EE6BCCF818AC88C28A40C3E /* LTMStringEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMStringEncoding.m; path = LTM/Common/LTMStringEncoding.m; sourceTree = "<group>"; };
+		79493E3F3F7016755DD5F36BA6E06CA3 /* LTMLightweightProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMLightweightProxy.m; path = LTM/Common/LTMLightweightProxy.m; sourceTree = "<group>"; };
+		7B1867185F31B14A822F2803A8213DCD /* LTMTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMTimer.h; path = LTM/Common/LTMTimer.h; sourceTree = "<group>"; };
+		7E7DF9B68AF5988D0EA4E3BF6323E560 /* LTMStringEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMStringEncoding.h; path = LTM/Common/LTMStringEncoding.h; sourceTree = "<group>"; };
 		7F6B7ED10107F987E9D43F15F14B7246 /* Pods-TravisCIDemo-Pod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TravisCIDemo-Pod-dummy.m"; sourceTree = "<group>"; };
+		7F7DD60B5E387F2527C80D6F41CFC517 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		824C96E54CE7B44DA2A840A24FB5CCA0 /* LTMNSKeyedUnarchiver+Safety.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LTMNSKeyedUnarchiver+Safety.m"; path = "LTM/Common/LTMNSKeyedUnarchiver+Safety.m"; sourceTree = "<group>"; };
+		82729FD7DA013FD9D2E843655BD0EBFF /* LTMUIColor+RGB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LTMUIColor+RGB.h"; path = "LTM/UIKit/LTMUIColor+RGB.h"; sourceTree = "<group>"; };
+		85DF3BAC2483432E4F0DE223A24A84CB /* LTMUIImage+Resize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LTMUIImage+Resize.m"; path = "LTM/UIKit/LTMUIImage+Resize.m"; sourceTree = "<group>"; };
+		85E4B38186E2C80E3C35D7307E3CA7D8 /* LTMURLQueryItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMURLQueryItem.h; path = LTM/Common/LTMURLQueryItem.h; sourceTree = "<group>"; };
+		88220F7FA754D066E61140EFFC91A59E /* LTMNSTimer+LightweightProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LTMNSTimer+LightweightProxy.m"; path = "LTM/Common/LTMNSTimer+LightweightProxy.m"; sourceTree = "<group>"; };
+		890B74FD3169B73393352DFD2102A365 /* LTMURLComponents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMURLComponents.h; path = LTM/Common/LTMURLComponents.h; sourceTree = "<group>"; };
+		8BFB5192810C1B4371F7CBD6131FA601 /* LTMTypeUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMTypeUtility.h; path = LTM/Common/LTMTypeUtility.h; sourceTree = "<group>"; };
+		8ED3AFC9A9E390755DCBD5339E8C6E11 /* LTMNSThread+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LTMNSThread+Blocks.m"; path = "LTM/Common/LTMNSThread+Blocks.m"; sourceTree = "<group>"; };
+		8F5D0B01CF71FA34A63BBE5EDA0815D8 /* LTMHex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMHex.m; path = LTM/Common/LTMHex.m; sourceTree = "<group>"; };
+		8FFDD2AD8707DF05815A91622E724E83 /* LTMNSCoder+ExtendedCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LTMNSCoder+ExtendedCoder.h"; path = "LTM/Common/LTMNSCoder+ExtendedCoder.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		972AF7482B219135220EAF2AF469830E /* TCIURLCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TCIURLCoder.m; sourceTree = "<group>"; };
+		9C41EF43A21FCF7E74B5FDF6944AA6C4 /* LTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMDefines.h; path = LTM/Common/LTMDefines.h; sourceTree = "<group>"; };
+		9DD09B87A79B19EA95C479F923196CF7 /* LTM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTM.h; path = LTM/LTM.h; sourceTree = "<group>"; };
+		AC538D180D68AEE31FBFB97A7E874EAE /* LTMURLArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMURLArguments.m; path = LTM/Common/LTMURLArguments.m; sourceTree = "<group>"; };
 		AE54B5D05F09B5AD35906B8ADB558B67 /* TravisCIDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TravisCIDemo-prefix.pch"; sourceTree = "<group>"; };
-		BB437EB5DF294642F72E6A61D3A1B162 /* libTravisCIDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTravisCIDemo.a; path = libTravisCIDemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAAA3BD3E340FEED93D2EB8918FAEEA /* LTMUIView+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LTMUIView+Snapshot.m"; path = "LTM/UIKit/LTMUIView+Snapshot.m"; sourceTree = "<group>"; };
+		B9C673EB6AA23CB844056E049873BC1B /* LTMHex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMHex.h; path = LTM/Common/LTMHex.h; sourceTree = "<group>"; };
+		BB0869AEF5C7C17DF67F667ABB973A5F /* LTM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTM-dummy.m"; sourceTree = "<group>"; };
+		BF81CA50F11CE89213BBD0BBB01F9E49 /* libLTM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLTM.a; path = libLTM.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0475DE3A4B0FC02D7B358987017096D /* Pods-TravisCIDemo-Pod-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TravisCIDemo-Pod-resources.sh"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C09DB537C9A6406B837939758A7B4A1C /* LTMPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMPath.m; path = LTM/Common/LTMPath.m; sourceTree = "<group>"; };
+		C31DB09B93EF9CF28A4F88B76B1B3CD0 /* LTMTypeUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMTypeUtility.m; path = LTM/Common/LTMTypeUtility.m; sourceTree = "<group>"; };
+		D0CB1FF1025CA5245423A6A2159B2057 /* LTMURLQueryItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMURLQueryItem.m; path = LTM/Common/LTMURLQueryItem.m; sourceTree = "<group>"; };
+		D5B82F6A8DD5FC46E17620BA1A071F55 /* LTMTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMTimer.m; path = LTM/Common/LTMTimer.m; sourceTree = "<group>"; };
+		DB47680BD119AC333585BC04C84B7277 /* libPods-TravisCIDemo-Pod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TravisCIDemo-Pod.a"; path = "libPods-TravisCIDemo-Pod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2ADBBF75B08459F12D1196BD59784D /* LTMLocalizedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMLocalizedString.h; path = LTM/Common/LTMLocalizedString.h; sourceTree = "<group>"; };
+		E2456F895B682D63949C019C41062A50 /* LTMNSDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTMNSDictionary.m; path = LTM/Common/LTMNSDictionary.m; sourceTree = "<group>"; };
+		E34828DD168D614B43467B219D0BD6E5 /* LTMUIImage+RoundedCorner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LTMUIImage+RoundedCorner.m"; path = "LTM/UIKit/LTMUIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		E57AA60BBBBE753747F3454AE26180A1 /* LTMPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMPath.h; path = LTM/Common/LTMPath.h; sourceTree = "<group>"; };
+		E813898C2F5A68A186B2B7FE529F273D /* LTMUIImage+RoundedCorner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LTMUIImage+RoundedCorner.h"; path = "LTM/UIKit/LTMUIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		F25C6B2F7745BB3B05650F4AB58CF56D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		F9C6216B69B0EF65B25749E83FEECE1F /* TravisCIDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TravisCIDemo-dummy.m"; sourceTree = "<group>"; };
+		FA30398AE442895BA0A966460AF5B488 /* LTM.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTM.xcconfig; sourceTree = "<group>"; };
 		FB904E00C86D42C0A8BB15A810A16472 /* Pods-TravisCIDemo-Pod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TravisCIDemo-Pod.release.xcconfig"; sourceTree = "<group>"; };
 		FFB68603A642182CEBB3F8145D094AAA /* TCIURLCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TCIURLCoder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A8E2F7C5D93B6309A31C8611815B5B2 /* Frameworks */ = {
+		61D2A4AAD9D7D0FE880F19F93808B295 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF75B76917FEF774103F4A8CA14A2A06 /* Foundation.framework in Frameworks */,
+				137EC7B3B640A652510DA00CED021288 /* CoreGraphics.framework in Frameworks */,
+				F1737BF74C2707332DCAE91EFCF154CD /* Foundation.framework in Frameworks */,
+				5AA92D952DD28FABB1B1E6F26E46C4C2 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		633BBA2B907478595CE72CFEABFEEDC1 /* Frameworks */ = {
+		A36B54F156BED875E2CDE56DEF793D84 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55DAEC48710E8760E715E6A2306CD6A7 /* Foundation.framework in Frameworks */,
+				45BC47444BBF097BB9CD3FABF593675D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37487F87613FF24AC7871EE0ABF3587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643BA44B6D57C831178DD8EB79A84D11 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +245,71 @@
 			path = "Target Support Files/Pods-TravisCIDemo-Pod";
 			sourceTree = "<group>";
 		};
-		4F1265464AF7A67259F3068943A51D7D /* Products */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				35AE270C676126B4FE1AFF52DFEFE9A1 /* libPods-TravisCIDemo-Pod.a */,
-				BB437EB5DF294642F72E6A61D3A1B162 /* libTravisCIDemo.a */,
+				E9E15B70A21F6E70666DC7FB72EFF50E /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		528611B8E83FF0B447F422FF7C80C241 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF8AFDA9561D91DDC1B57F77B5214717 /* LTM */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55194A2953DFC5301B8B6477BED6F425 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				38B902FD15615CD1FF07EDEDB097B6BC /* LTMBase64.h */,
+				41445001384B27766EB71E2FCE5E76FE /* LTMBase64.m */,
+				9C41EF43A21FCF7E74B5FDF6944AA6C4 /* LTMDefines.h */,
+				29AD1FE84839B713F09C3FEBEA9484BA /* LTMDigest.h */,
+				6B2401811FE76734A767A4C42A8D0667 /* LTMDigest.m */,
+				1A0FDF28D62BF78A95D08B7F64F27E8C /* LTMGeometryUtils.h */,
+				6BE1BFC88FEBD824D278B1BC26424053 /* LTMGeometryUtils.m */,
+				B9C673EB6AA23CB844056E049873BC1B /* LTMHex.h */,
+				8F5D0B01CF71FA34A63BBE5EDA0815D8 /* LTMHex.m */,
+				06388ABEDA879EAF4CACBF5F40ABB3D5 /* LTMJSON.h */,
+				1EF40E405DC00F7D2A87C58C426DC007 /* LTMJSON.m */,
+				419C72973D03D454B2B3C5CF921F5680 /* LTMLightweightProxy.h */,
+				79493E3F3F7016755DD5F36BA6E06CA3 /* LTMLightweightProxy.m */,
+				DE2ADBBF75B08459F12D1196BD59784D /* LTMLocalizedString.h */,
+				1DD8656837A36488CCBB4CFFF5C90583 /* LTMMath.h */,
+				28AAB15D0F733CB4E1DBE8187BDA1689 /* LTMMath.m */,
+				4F00F87C355109B2811B0B3C3C9DD50E /* LTMMerge.h */,
+				6669AE10D3735ADCE7A8911343DFEB41 /* LTMMerge.m */,
+				8FFDD2AD8707DF05815A91622E724E83 /* LTMNSCoder+ExtendedCoder.h */,
+				582EA8D64EE3D02CD603D194854835F0 /* LTMNSCoder+ExtendedCoder.m */,
+				591B9C91C10A8EC6CFBDDC1DC1DCE720 /* LTMNSDictionary.h */,
+				E2456F895B682D63949C019C41062A50 /* LTMNSDictionary.m */,
+				1616B7B564EF0EB3ED3E0A1FB2B7C638 /* LTMNSKeyedUnarchiver+Safety.h */,
+				824C96E54CE7B44DA2A840A24FB5CCA0 /* LTMNSKeyedUnarchiver+Safety.m */,
+				176A2E2F13FE84F3B0A21AB79BFF2365 /* LTMNSThread+Blocks.h */,
+				8ED3AFC9A9E390755DCBD5339E8C6E11 /* LTMNSThread+Blocks.m */,
+				65E190B0E061E55518B71EFE8E70C59A /* LTMNSTimer+LightweightProxy.h */,
+				88220F7FA754D066E61140EFFC91A59E /* LTMNSTimer+LightweightProxy.m */,
+				E57AA60BBBBE753747F3454AE26180A1 /* LTMPath.h */,
+				C09DB537C9A6406B837939758A7B4A1C /* LTMPath.m */,
+				7E7DF9B68AF5988D0EA4E3BF6323E560 /* LTMStringEncoding.h */,
+				74C6114D1EE6BCCF818AC88C28A40C3E /* LTMStringEncoding.m */,
+				7B1867185F31B14A822F2803A8213DCD /* LTMTimer.h */,
+				D5B82F6A8DD5FC46E17620BA1A071F55 /* LTMTimer.m */,
+				8BFB5192810C1B4371F7CBD6131FA601 /* LTMTypeUtility.h */,
+				C31DB09B93EF9CF28A4F88B76B1B3CD0 /* LTMTypeUtility.m */,
+				718E38A7A68049F804A74EA61F02CBA3 /* LTMURLArguments.h */,
+				AC538D180D68AEE31FBFB97A7E874EAE /* LTMURLArguments.m */,
+				079603A4E74ABBDC89BA7A53881E4455 /* LTMURLCoder.h */,
+				5EBAEFC98E94D4221859BEC6682AA409 /* LTMURLCoder.m */,
+				890B74FD3169B73393352DFD2102A365 /* LTMURLComponents.h */,
+				58597D5EEB8693342753A30AE8DAED46 /* LTMURLComponents.m */,
+				85E4B38186E2C80E3C35D7307E3CA7D8 /* LTMURLQueryItem.h */,
+				D0CB1FF1025CA5245423A6A2159B2057 /* LTMURLQueryItem.m */,
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 		5FB685FD22281B4C21D3850950E43C3B /* Development Pods */ = {
@@ -98,12 +320,31 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		6F2D2D414A18B35E935D0087B11B90CD /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				68F48CCE370070148631638C828EEB04 /* LTMStringDrawing.h */,
+				256C3F8CDBC64F2621A21A76AD4EE8E9 /* LTMStringDrawing.m */,
+				56A315ACBA244596B97C61D06C1A864A /* LTMSystemVersion.h */,
+				226272ABFF35DE81FC01016EBEAF3772 /* LTMSystemVersion.m */,
+				82729FD7DA013FD9D2E843655BD0EBFF /* LTMUIColor+RGB.h */,
+				1ECC79C452547184559A2522A35F85D1 /* LTMUIColor+RGB.m */,
+				3F9EDDF4B3DA2014C4F8E5F85261A392 /* LTMUIFont+LineHeight.h */,
+				0554BC862D8BD6BA399FF79EC2A3F859 /* LTMUIFont+LineHeight.m */,
+				6D219CB9E6C876F8639ED12F0CA14C2E /* LTMUIImage+Alpha.h */,
+				1DAAB827DC77C353F55678C6A3FFCC31 /* LTMUIImage+Alpha.m */,
+				20A89C69AE728F06A91A4068F3FD7221 /* LTMUIImage+Resize.h */,
+				85DF3BAC2483432E4F0DE223A24A84CB /* LTMUIImage+Resize.m */,
+				029956A57B04451D19A6D5DCD53EB98B /* LTMUIImage+Rotate.h */,
+				44F94B75D4ED9F5D8B0EC4402EF45C90 /* LTMUIImage+Rotate.m */,
+				E813898C2F5A68A186B2B7FE529F273D /* LTMUIImage+RoundedCorner.h */,
+				E34828DD168D614B43467B219D0BD6E5 /* LTMUIImage+RoundedCorner.m */,
+				3D8D836A74E77C6A20CA2EA30D634E94 /* LTMUIView+Snapshot.h */,
+				AFAAA3BD3E340FEED93D2EB8918FAEEA /* LTMUIView+Snapshot.m */,
+				022887A59A04EB8CE2F8748BD8E002DA /* LTMUIView+SubtreeDescription.h */,
+				1D46C1614B75F3BB46BE5B23BD9C99C9 /* LTMUIView+SubtreeDescription.m */,
 			);
-			name = iOS;
+			name = UIKit;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -111,8 +352,9 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				5FB685FD22281B4C21D3850950E43C3B /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4F1265464AF7A67259F3068943A51D7D /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				528611B8E83FF0B447F422FF7C80C241 /* Pods */,
+				CDA524DF5831CCE4784EB72083CF803E /* Products */,
 				8EB41B6CAB6CA04A6FD09E8C25C18523 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -123,6 +365,17 @@
 				0ECB0C79243ED2037A04068AA2879B17 /* Pods-TravisCIDemo-Pod */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		99852991B08A0C28FDCDC639FBBFAE95 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA30398AE442895BA0A966460AF5B488 /* LTM.xcconfig */,
+				BB0869AEF5C7C17DF67F667ABB973A5F /* LTM-dummy.m */,
+				2AE94A091783BA2F6DF2CD48AF109810 /* LTM-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LTM";
 			sourceTree = "<group>";
 		};
 		ADAC0C45C3BD6F0D5B00DEE20D44899F /* TravisCIDemo */ = {
@@ -146,12 +399,26 @@
 			path = ../../..;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		CDA524DF5831CCE4784EB72083CF803E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				BF81CA50F11CE89213BBD0BBB01F9E49 /* libLTM.a */,
+				DB47680BD119AC333585BC04C84B7277 /* libPods-TravisCIDemo-Pod.a */,
+				06FFD475A119FEB0C6933C756DD02DC4 /* libTravisCIDemo.a */,
 			);
-			name = Frameworks;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF8AFDA9561D91DDC1B57F77B5214717 /* LTM */ = {
+			isa = PBXGroup;
+			children = (
+				9DD09B87A79B19EA95C479F923196CF7 /* LTM.h */,
+				55194A2953DFC5301B8B6477BED6F425 /* Common */,
+				99852991B08A0C28FDCDC639FBBFAE95 /* Support Files */,
+				6F2D2D414A18B35E935D0087B11B90CD /* UIKit */,
+			);
+			name = LTM;
+			path = LTM;
 			sourceTree = "<group>";
 		};
 		E8A62A875681E31CCF9B430DE0D467ED /* Support Files */ = {
@@ -165,53 +432,123 @@
 			path = "Samples/TravisCIDemo-Pod/Pods/Target Support Files/TravisCIDemo";
 			sourceTree = "<group>";
 		};
+		E9E15B70A21F6E70666DC7FB72EFF50E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6377BE939D92951880F8268257339779 /* CoreGraphics.framework */,
+				7F7DD60B5E387F2527C80D6F41CFC517 /* Foundation.framework */,
+				F25C6B2F7745BB3B05650F4AB58CF56D /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		96ED95E444761B07651AF37C85B920ED /* Headers */ = {
+		0F50D2F34788420C52CDC88D5BCF6CD1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				545DEA75B043E0A3AE71845AADA42E98 /* TCIURLCoder.h in Headers */,
-				BA83760AF1E767DEAABA9BF39896E3EC /* TravisCIDemo.h in Headers */,
+				02C0358A6C45899AA878624C99F56578 /* LTM.h in Headers */,
+				8E3808D974EADD3D32A15F8D310BDBEA /* LTMBase64.h in Headers */,
+				9A6521399DA95E2F3BA5E9940F4A35BF /* LTMDefines.h in Headers */,
+				921C590FBA760EA51736A4BE4D350C5E /* LTMDigest.h in Headers */,
+				67BF477C395FC9AF4743FCF163EFDA96 /* LTMGeometryUtils.h in Headers */,
+				EC78C580551EA224E062476FAB25275B /* LTMHex.h in Headers */,
+				F0AA639F7E0F2D7E362542B2BDF4D88F /* LTMJSON.h in Headers */,
+				F239B3D0D563149A3ADB82E5D674567B /* LTMLightweightProxy.h in Headers */,
+				9E9C60029A60F10E7D0F26C826133EF2 /* LTMLocalizedString.h in Headers */,
+				48BED892FB7CB6C607A8E7BF0DF8CAA5 /* LTMMath.h in Headers */,
+				8356F7A63EAFD35541B91528B9474E3A /* LTMMerge.h in Headers */,
+				C1C96AAACF2D718EB8E0FE1FB4FF2D23 /* LTMNSCoder+ExtendedCoder.h in Headers */,
+				B140E394683663869F4B8586352CE21E /* LTMNSDictionary.h in Headers */,
+				053CFC29B88052B2EE8FF40B5BE08158 /* LTMNSKeyedUnarchiver+Safety.h in Headers */,
+				62A9FE325BDE720250E369FC93BEBA6D /* LTMNSThread+Blocks.h in Headers */,
+				E81E9B9DB5E734F16C4A3E28CD646262 /* LTMNSTimer+LightweightProxy.h in Headers */,
+				ACD07F8208B862BB0556DA0F6232A22B /* LTMPath.h in Headers */,
+				6677C25C89065039E7D01B049550DB9C /* LTMStringDrawing.h in Headers */,
+				21A4D054467C3F28B4876B91DC47B098 /* LTMStringEncoding.h in Headers */,
+				659C3A1E1AD4D33CE20408FB768F6A6F /* LTMSystemVersion.h in Headers */,
+				CBCB7E6A5872BB93FDC1849A58EC5ABE /* LTMTimer.h in Headers */,
+				0BC16F9A8937BBBA76E2D91F5219B545 /* LTMTypeUtility.h in Headers */,
+				290EDEBD8F15E10A1DDED4301576546B /* LTMUIColor+RGB.h in Headers */,
+				FAA2586A37F5B9831C28A10A7FC55151 /* LTMUIFont+LineHeight.h in Headers */,
+				07DF1FD301E579BAD35400B5C835B0BE /* LTMUIImage+Alpha.h in Headers */,
+				4A102757E7568273A6FD38CB20B5448D /* LTMUIImage+Resize.h in Headers */,
+				C56CC4CE538964CC7C8B3BD842A7AB31 /* LTMUIImage+Rotate.h in Headers */,
+				7BEB03193DE10C3720919D460003710D /* LTMUIImage+RoundedCorner.h in Headers */,
+				AD901950F62E60E1D5168A0D03797C41 /* LTMUIView+Snapshot.h in Headers */,
+				3D2F98A9638E8DBFA2CEE4C657A73485 /* LTMUIView+SubtreeDescription.h in Headers */,
+				FBD81520A3B7F723BF7495F4EE50289A /* LTMURLArguments.h in Headers */,
+				DCD0D66E0E513B184C7DA41ACF0C4DC8 /* LTMURLCoder.h in Headers */,
+				0E857D1BC9DD58282B7189C2D25859DF /* LTMURLComponents.h in Headers */,
+				F6764365E6496E09EF464A9FFC8EDAFE /* LTMURLQueryItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9197E31DA7A23215FA9F70414E30DC7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F0C4FFF64E264CB7697B873C57E5EA /* TCIURLCoder.h in Headers */,
+				4EEBD28017AD25DFCC0EDE4A4974590E /* TravisCIDemo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		74B1268637D625ABEF6DCD40D9CC4863 /* Pods-TravisCIDemo-Pod */ = {
+		07B1ADBAF9A14C5C6F612229DE255F28 /* LTM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B7AAFB17863097E490F70F07E96CB3A /* Build configuration list for PBXNativeTarget "Pods-TravisCIDemo-Pod" */;
+			buildConfigurationList = EB7F0AC997C2A13229B455E27954CE85 /* Build configuration list for PBXNativeTarget "LTM" */;
 			buildPhases = (
-				2CDCD4CCD4C9B5F3DAA1BD8E585222CC /* Sources */,
-				2A8E2F7C5D93B6309A31C8611815B5B2 /* Frameworks */,
+				2111017A957BCFBAF1FB6C9F159A7050 /* Sources */,
+				61D2A4AAD9D7D0FE880F19F93808B295 /* Frameworks */,
+				0F50D2F34788420C52CDC88D5BCF6CD1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CBA7ED7822FDC36F62FAF8EFCE93E281 /* PBXTargetDependency */,
+			);
+			name = LTM;
+			productName = LTM;
+			productReference = BF81CA50F11CE89213BBD0BBB01F9E49 /* libLTM.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		50A5BEAFB1687C486ACD65D4942EBD19 /* Pods-TravisCIDemo-Pod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F58AAC29202046C024ED52ED9B1EFD5 /* Build configuration list for PBXNativeTarget "Pods-TravisCIDemo-Pod" */;
+			buildPhases = (
+				8379973F74F8ADC1DE693000F1C820E7 /* Sources */,
+				E37487F87613FF24AC7871EE0ABF3587 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4DC61B8D5C579CC90A98CD3737436E7 /* PBXTargetDependency */,
+				0AF083DD71893D961F472F55619C14C5 /* PBXTargetDependency */,
 			);
 			name = "Pods-TravisCIDemo-Pod";
 			productName = "Pods-TravisCIDemo-Pod";
-			productReference = 35AE270C676126B4FE1AFF52DFEFE9A1 /* libPods-TravisCIDemo-Pod.a */;
+			productReference = DB47680BD119AC333585BC04C84B7277 /* libPods-TravisCIDemo-Pod.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C63A86869EAD8DE31351622C8CF4EA81 /* TravisCIDemo */ = {
+		88D372678D2C59D0719987DD53EA3412 /* TravisCIDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F44D4622731B25743F799BAAF58F986 /* Build configuration list for PBXNativeTarget "TravisCIDemo" */;
+			buildConfigurationList = 6F4D2E831B85776D5FAC61922E2E986D /* Build configuration list for PBXNativeTarget "TravisCIDemo" */;
 			buildPhases = (
-				D23CE2E68BC7D2564D096102D7E5423F /* Sources */,
-				633BBA2B907478595CE72CFEABFEEDC1 /* Frameworks */,
-				96ED95E444761B07651AF37C85B920ED /* Headers */,
+				1666706B349627DBB93D0EEE43ADB86E /* Sources */,
+				A36B54F156BED875E2CDE56DEF793D84 /* Frameworks */,
+				9197E31DA7A23215FA9F70414E30DC7D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				47A2B389B265D9942DC94994AEFEB8B7 /* PBXTargetDependency */,
 			);
 			name = TravisCIDemo;
 			productName = TravisCIDemo;
-			productReference = BB437EB5DF294642F72E6A61D3A1B162 /* libTravisCIDemo.a */;
+			productReference = 06FFD475A119FEB0C6933C756DD02DC4 /* libTravisCIDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -231,59 +568,111 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4F1265464AF7A67259F3068943A51D7D /* Products */;
+			productRefGroup = CDA524DF5831CCE4784EB72083CF803E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				74B1268637D625ABEF6DCD40D9CC4863 /* Pods-TravisCIDemo-Pod */,
-				C63A86869EAD8DE31351622C8CF4EA81 /* TravisCIDemo */,
+				07B1ADBAF9A14C5C6F612229DE255F28 /* LTM */,
+				50A5BEAFB1687C486ACD65D4942EBD19 /* Pods-TravisCIDemo-Pod */,
+				88D372678D2C59D0719987DD53EA3412 /* TravisCIDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2CDCD4CCD4C9B5F3DAA1BD8E585222CC /* Sources */ = {
+		1666706B349627DBB93D0EEE43ADB86E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F98BE8CCE207238286E683861022F0C1 /* Pods-TravisCIDemo-Pod-dummy.m in Sources */,
+				777999554A0E77CD6F8472ECC887EEE4 /* TCIURLCoder.m in Sources */,
+				965B1733FE8C5E30ADADBDB1081F3E7E /* TravisCIDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D23CE2E68BC7D2564D096102D7E5423F /* Sources */ = {
+		2111017A957BCFBAF1FB6C9F159A7050 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E580BEE4A38FCBDEB343B83D8530296 /* TCIURLCoder.m in Sources */,
-				862B6CA81AEE6D049CA3A82178AEEC1F /* TravisCIDemo-dummy.m in Sources */,
+				351215DBC47FA48270FABBCE3F0054FC /* LTM-dummy.m in Sources */,
+				D91AE80FA345C8D46ACF1219DAB10DCF /* LTMBase64.m in Sources */,
+				2CC6F55E5D1FADD42748EFCA5D588FAA /* LTMDigest.m in Sources */,
+				15BF1C7E15CAA9971169C7D367C459E5 /* LTMGeometryUtils.m in Sources */,
+				2F7FADC7E4E68DF9211905E07763251F /* LTMHex.m in Sources */,
+				F7BBCF0E746867189BDE014ACD75A6FE /* LTMJSON.m in Sources */,
+				F4B5633CC0A4BA62854E89B590063312 /* LTMLightweightProxy.m in Sources */,
+				F3F76C3F65A4363598C9A21A80D4B644 /* LTMMath.m in Sources */,
+				279CA6AB7AF83B93DF5B53D0DC8F52E3 /* LTMMerge.m in Sources */,
+				FC8EA4958D8880625C7DA018D305D594 /* LTMNSCoder+ExtendedCoder.m in Sources */,
+				B6CED1B6F74080AA147D68C1ED81B484 /* LTMNSDictionary.m in Sources */,
+				247E79B7673C6EBF1481F0FA878E10A6 /* LTMNSKeyedUnarchiver+Safety.m in Sources */,
+				17C96D3CCD03FD6872FAD388B033A8BE /* LTMNSThread+Blocks.m in Sources */,
+				C1407FFD498270E2761E84E4DE488AFC /* LTMNSTimer+LightweightProxy.m in Sources */,
+				B4AC52D5AD0BB4BC6D218C35749B5A49 /* LTMPath.m in Sources */,
+				056D9DE829950AF99D8300CE2ADEB6F8 /* LTMStringDrawing.m in Sources */,
+				82E7AE27B248FFF0076BD50B0C4AD9B9 /* LTMStringEncoding.m in Sources */,
+				D0E9B1A3DAB8B2BE256DDF7452112357 /* LTMSystemVersion.m in Sources */,
+				E5424FE675BCBBCC9C49D7CDE02A7465 /* LTMTimer.m in Sources */,
+				FC265DBFD5F3ECE60FC3D71F7CF3560B /* LTMTypeUtility.m in Sources */,
+				CD26265AF37D9D6A170FDE9FFCF6FF13 /* LTMUIColor+RGB.m in Sources */,
+				176B936E42AF4FE35062C94F2C22955E /* LTMUIFont+LineHeight.m in Sources */,
+				735423E5BB060653A74990A4290FE2E4 /* LTMUIImage+Alpha.m in Sources */,
+				7EB75CAB12E0124D4BC466CCF660ABBE /* LTMUIImage+Resize.m in Sources */,
+				161E70438DAC3E985AF24D89C34D47F2 /* LTMUIImage+Rotate.m in Sources */,
+				BC26B4753E3B2DBA3996A7F0E4ECA8FC /* LTMUIImage+RoundedCorner.m in Sources */,
+				3B4E6C117B2A5BB5F5CD135337D80EE8 /* LTMUIView+Snapshot.m in Sources */,
+				8EF9C2D53821490E0BE10BC474D4D3D3 /* LTMUIView+SubtreeDescription.m in Sources */,
+				B61A4952F6029079D6BACD1D8143DEF3 /* LTMURLArguments.m in Sources */,
+				609DF99CDD3E85B65B8B1FA920C1B9F7 /* LTMURLCoder.m in Sources */,
+				61AB56685CFE87C105FB30BE965D9DF7 /* LTMURLComponents.m in Sources */,
+				A0AA0BFE963E6BC35528616CE446DD0A /* LTMURLQueryItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8379973F74F8ADC1DE693000F1C820E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463AC0985D2F783716EFDD112FCC5F1C /* Pods-TravisCIDemo-Pod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CBA7ED7822FDC36F62FAF8EFCE93E281 /* PBXTargetDependency */ = {
+		0AF083DD71893D961F472F55619C14C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TravisCIDemo;
-			target = C63A86869EAD8DE31351622C8CF4EA81 /* TravisCIDemo */;
-			targetProxy = 29A491758F0E45A112CB1CA8E6EAD4E9 /* PBXContainerItemProxy */;
+			target = 88D372678D2C59D0719987DD53EA3412 /* TravisCIDemo */;
+			targetProxy = 825C2BF4BF3A1D45807BB0789DC6FE26 /* PBXContainerItemProxy */;
+		};
+		47A2B389B265D9942DC94994AEFEB8B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LTM;
+			target = 07B1ADBAF9A14C5C6F612229DE255F28 /* LTM */;
+			targetProxy = A6F27E21E10E98D42B6E68BD5A7E9A78 /* PBXContainerItemProxy */;
+		};
+		B4DC61B8D5C579CC90A98CD3737436E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LTM;
+			target = 07B1ADBAF9A14C5C6F612229DE255F28 /* LTM */;
+			targetProxy = AF622F57DBDC5810C00F1448661FF1E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		23CE1BD48ABCEA204E24F116F47DB2B4 /* Debug */ = {
+		19F8A08DC7109C5B58AF9F798E1CE404 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B7FDEF81D378E51B547F7189AEB6CA6 /* TravisCIDemo.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/TravisCIDemo/TravisCIDemo-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -292,32 +681,9 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
-		};
-		575588066632815458DA0A9138464922 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB904E00C86D42C0A8BB15A810A16472 /* Pods-TravisCIDemo-Pod.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
 			name = Release;
 		};
-		A50CC66032F4494F11334239C2766ACD /* Debug */ = {
+		2AD3AF429A01CC46DF0FE7708472925A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 325109C6B9418C28C1BCCAB97C26611A /* Pods-TravisCIDemo-Pod.debug.xcconfig */;
 			buildSettings = {
@@ -339,6 +705,52 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
+		};
+		4A028CB7B65352B55E73A0AD0484CF8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA30398AE442895BA0A966460AF5B488 /* LTM.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LTM/LTM-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		95EBB1AF8E52828782990E8EF1AD1066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA30398AE442895BA0A966460AF5B488 /* LTM.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LTM/LTM-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
 		};
 		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -384,9 +796,32 @@
 			};
 			name = Debug;
 		};
-		D4F6DBDD090439785A979C356A185286 /* Release */ = {
+		D0282E21EF64C6CDDF11DD5B79E7F6D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B7FDEF81D378E51B547F7189AEB6CA6 /* TravisCIDemo.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TravisCIDemo/TravisCIDemo-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E7D2035644F327AB798D4F4EC2A0A01B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB904E00C86D42C0A8BB15A810A16472 /* Pods-TravisCIDemo-Pod.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -394,14 +829,14 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TravisCIDemo/TravisCIDemo-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -459,20 +894,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F44D4622731B25743F799BAAF58F986 /* Build configuration list for PBXNativeTarget "TravisCIDemo" */ = {
+		6F4D2E831B85776D5FAC61922E2E986D /* Build configuration list for PBXNativeTarget "TravisCIDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23CE1BD48ABCEA204E24F116F47DB2B4 /* Debug */,
-				D4F6DBDD090439785A979C356A185286 /* Release */,
+				D0282E21EF64C6CDDF11DD5B79E7F6D0 /* Debug */,
+				19F8A08DC7109C5B58AF9F798E1CE404 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B7AAFB17863097E490F70F07E96CB3A /* Build configuration list for PBXNativeTarget "Pods-TravisCIDemo-Pod" */ = {
+		8F58AAC29202046C024ED52ED9B1EFD5 /* Build configuration list for PBXNativeTarget "Pods-TravisCIDemo-Pod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A50CC66032F4494F11334239C2766ACD /* Debug */,
-				575588066632815458DA0A9138464922 /* Release */,
+				2AD3AF429A01CC46DF0FE7708472925A /* Debug */,
+				E7D2035644F327AB798D4F4EC2A0A01B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7F0AC997C2A13229B455E27954CE85 /* Build configuration list for PBXNativeTarget "LTM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A028CB7B65352B55E73A0AD0484CF8C /* Debug */,
+				95EBB1AF8E52828782990E8EF1AD1066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DFD9AFF213CC803E467B89B28F0C1B042578F7DC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DFD9AFF213CC803E467B89B28F0C1B042578F7DC" : 9223372036854775807,
+    "7844076D035EA882CD4AF4F75CA0B708DB0AE36B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CDC12B31-2B8A-480E-A979-480C6733EE53",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DFD9AFF213CC803E467B89B28F0C1B042578F7DC" : "TravisCIDemo\/",
+    "7844076D035EA882CD4AF4F75CA0B708DB0AE36B" : "TravisCIDemo\/Vendor\/LTM\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TravisCIDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TravisCIDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:wangxiaoxiang\/LTM.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7844076D035EA882CD4AF4F75CA0B708DB0AE36B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wangxiaoxiang\/TravisCIDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DFD9AFF213CC803E467B89B28F0C1B042578F7DC"
+    }
+  ]
+}
