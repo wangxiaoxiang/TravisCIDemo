@@ -1,0 +1,23 @@
+{
+  "name": "TravisCIDemo",
+  "version": "0.0.1",
+  "summary": "TravisCIDemo 这是什么？",
+  "description": "TravisCIDemoABC",
+  "homepage": "https://github.com/wangxiaoxiang/TravisCIDemo",
+  "license": "Apache-2.0",
+  "authors": {
+    "wangxiaoxiang": "wangxiaoxiang-cn@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/wangxiaoxiang/TravisCIDemo.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "TravisCIDemo/**/*.{h,m}",
+  "public_header_files": "TravisCIDemo/**/*.h",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

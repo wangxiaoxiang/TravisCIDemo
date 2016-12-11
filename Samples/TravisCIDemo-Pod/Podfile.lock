@@ -1,0 +1,16 @@
+PODS:
+  - TravisCIDemo (0.0.1)
+
+DEPENDENCIES:
+  - TravisCIDemo (from `../../.`)
+
+EXTERNAL SOURCES:
+  TravisCIDemo:
+    :path: "../../."
+
+SPEC CHECKSUMS:
+  TravisCIDemo: 703eaa4485b4869d5ede7a2640c91d88d0ed633c
+
+PODFILE CHECKSUM: 1c0850462c7f3c12bf273aab749d2e82e2c75e1d
+
+COCOAPODS: 1.1.1
